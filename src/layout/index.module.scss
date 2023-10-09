@@ -1,0 +1,19 @@
+.layout {
+  width: 100vw;
+  min-height: 100vh;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  padding-top: 60px;
+  background: rgb(51, 121, 182);
+  background: linear-gradient(
+    90deg,
+    rgba(51, 121, 182, 1) 0%,
+    rgba(75, 218, 177, 1) 100%
+  );
+
+  main {
+    width: 100%;
+    height: 100%;
+  }
+}
