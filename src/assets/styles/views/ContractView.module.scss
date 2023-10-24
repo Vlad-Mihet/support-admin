@@ -1,0 +1,64 @@
+.contract-view {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 50px;
+
+  &__content {
+    width: 60%;
+    min-height: 100%;
+    margin: 0 auto;
+    overflow-y: auto;
+    padding: 20px 0;
+
+    &__field {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: left;
+      margin-bottom: 20px;
+
+      .wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        .copy-link {
+          padding: 5px 10px;
+          background-color: #2196f3;
+          color: #fff;
+          border: none;
+          outline: none;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: all 0.3s ease-in-out;
+          font-weight: bold;
+          font-size: 0.8rem;
+          margin-left: 1rem;
+
+          &:hover {
+            background-color: #1976d2;
+          }
+        }
+      }
+    }
+
+    h1 {
+      font-size: 1.5rem;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #333;
+
+      &:first-child {
+        font-size: 0.9rem;
+        font-weight: 600;
+        margin-bottom: 5px;
+      }
+    }
+  }
+}
